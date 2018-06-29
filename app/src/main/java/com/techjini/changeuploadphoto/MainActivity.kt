@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val btnSelect = findViewById<Button>(R.id.selectButton)
-        btnSelect.setOnClickListener { v -> selectImage() }
+        btnSelect.setOnClickListener { selectImage() }
     }
 
     fun onSelectImageClick() {
